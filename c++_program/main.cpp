@@ -95,5 +95,6 @@ int main() {
 	thread t2(printB);
 	t1.join();
 	t2.join();
+	cout << "test" << endl;
 	return 0;
 }
